@@ -48,6 +48,7 @@ import (
 //       rpc Bar(google.protobuf.Empty) returns (google.protobuf.Empty);
 //     }
 //
+// The JSON representation for `Empty` is empty JSON object `{}`.
 type Empty struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
